@@ -1,2 +1,4 @@
 **.terraform
 **venv
+**__pycache__
+sp.txt
