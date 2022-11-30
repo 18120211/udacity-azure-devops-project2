@@ -14,8 +14,8 @@ variables:
   webAppName: 'wa-udacity-azure-devops-project2'
 
   # Agent VM image name
-  # poolName: 'ap-udacity-azure-devops'
-  vmImageName: 'ubuntu-latest'
+  poolName: 'ap-udacity-azure-devops'
+  # vmImageName: 'ubuntu-latest'
 
   # Environment name
   environmentName: 'wa-udacity-azure-devops-project2'
@@ -37,7 +37,8 @@ stages:
   jobs:
   - job: BuildJob
     pool:
-      vmImage: $(vmImageName)
+      # vmImage: $(vmImageName)
+      name: $(poolName)
     steps:
     - task: UsePythonVersion@0
       inputs:
@@ -86,7 +87,8 @@ stages:
   jobs:
   - deployment: DeploymentJob
     pool:
-      vmImage: $(vmImageName)
+      # vmImage: $(vmImageName)
+      name: $(poolName)
     environment: $(environmentName)
     strategy:
       runOnce:

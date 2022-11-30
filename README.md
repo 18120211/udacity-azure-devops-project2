@@ -3,10 +3,8 @@
 <TODO: complete this with an overview of your project>
 
 ## Project Plan
-<TODO: Project Plan
-
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+- [Project plan](https://docs.google.com/spreadsheets/d/1lS0_nD0a2gimpy0jQcHxFSqQ9Rm3pjqQlrCMkl8MxZY/edit?usp=sharing)
+- [Trello](https://trello.com/invite/b/tJXvs7Jm/ATTId37511caf76a188e3e1ba8704824dee5C3B3ADE2/udacity-azure-devops-project2)
 
 ## Instructions
 
