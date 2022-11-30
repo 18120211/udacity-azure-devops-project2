@@ -11,14 +11,14 @@ variables:
   azureServiceConnectionId: 'udacity-azure-devops-pipeline'
 
   # Web app name
-  webAppName: 'wa-udacity-azure-devops-project2'
+  webAppName: 'udacity-azure-devops-project2'
 
   # Agent VM image name
   poolName: 'ap-udacity-azure-devops'
   # vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'wa-udacity-azure-devops-project2'
+  environmentName: 'udacity-azure-devops-project2'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)

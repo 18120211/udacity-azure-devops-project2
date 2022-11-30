@@ -16,6 +16,8 @@
 ```
     az webapp up --sku F1 -n <web_app_name> -g <azure-resoure-group>
 ```
+![diagram](images/azure-webapp-deploy.PNG)
+
 
 * Project cloned into Azure Cloud Shell
 ![diagram](images/repo-cloudshell.PNG)
