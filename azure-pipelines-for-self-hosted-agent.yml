@@ -53,11 +53,6 @@ stages:
         pip install -r requirements.txt
       workingDirectory: $(projectRoot)
       displayName: "Install requirements"
-
-    - script: |
-        python -m pip install flake8
-        flake8 ./app.py
-      displayName: 'Run lint tests'
     
     - script: |
         echo "Working directory: $projectRoot"
