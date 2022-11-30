@@ -1,6 +1,5 @@
 # Overview
-
-<TODO: complete this with an overview of your project>
+This is a Python-based machine learning project deployed on Azure Web App service and using Flask web-framework as it rest-API. The machine learning model will predict the price of Boston houses according to some information such as average room in the house, data about highway access and so on.
 
 ## Project Plan
 - [Project plan](https://docs.google.com/spreadsheets/d/1lS0_nD0a2gimpy0jQcHxFSqQ9Rm3pjqQlrCMkl8MxZY/edit?usp=sharing)
@@ -35,21 +34,25 @@
     ![diagram](images/azure-webapp.PNG)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
+![diagram](images/azure-pipeline.PNG)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+![diagram](images/make-predict-azure.PNG)
 
 * Output of streamed log files from deployed application
+![diagram](images/webapp-log.PNG)
+
+* Locust
+![diagram](images/locust.PNG)
 
 
 
 ## Enhancements
+- Deploy infrastructure using provisioning tool like Terraform
+- Deploy the application on Kubernetes cluster
+- Apply rolling update 
+- Adding more test/case to the application.
 
 
 ## Demo 

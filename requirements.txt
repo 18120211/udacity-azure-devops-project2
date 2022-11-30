@@ -4,3 +4,4 @@ scikit-learn==1.0.2
 joblib==1.2.0
 pylint==2.13.7
 pytest==7.1.2
+locust
