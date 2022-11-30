@@ -8,20 +8,29 @@
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+![diagram](images/udacity-azure-devops-project2.drawio.png)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+
 
 * Project running on Azure App Service
+```
+    az webapp up --sku F1 -n <web_app_name> -g <azure-resoure-group>
+```
 
 * Project cloned into Azure Cloud Shell
+![diagram](images/repo-cloudshell.PNG)
+
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+![diagram](images/make-all-passed.PNG)
+
 
 * Output of a test run
+![diagram](images/github-acction-passed.PNG)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+
+    ![diagram](images/azure-webapp.PNG)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
@@ -36,14 +45,12 @@ Port: 443
 
 * Output of streamed log files from deployed application
 
-> 
+
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
 
 

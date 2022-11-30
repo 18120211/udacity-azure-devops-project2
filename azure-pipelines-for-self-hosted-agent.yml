@@ -53,14 +53,6 @@ stages:
         pip install -r requirements.txt
       workingDirectory: $(projectRoot)
       displayName: "Install requirements"
-    
-    - script: |
-        echo "Working directory: $projectRoot"
-        echo "artifactStagingDirectory: $artifactStagingDirectory"
-        echo "workspace: $workspace"
-        echo "azureServiceConnectionId: $azureServiceConnectionId"
-
-      displayName: 'Environment checkpoint'
 
     - task: ArchiveFiles@2
       displayName: 'Archive files'
