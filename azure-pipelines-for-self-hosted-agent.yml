@@ -28,7 +28,6 @@ variables:
   artifactStagingDirectory: $(Build.ArtifactStagingDirectory)
   buildId: $(Build.BuildId)
   workspace: $(Pipeline.Workspace)
-  azureServiceConnectionId: $(azureServiceConnectionId)
     
 
 stages:
